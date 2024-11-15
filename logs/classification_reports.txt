@@ -1,0 +1,70 @@
+Multinomial NB Classification Report:
+              precision    recall  f1-score   support
+
+      comedy       0.69      0.00      0.00      7447
+ documentary       0.63      0.72      0.67     13096
+       drama       0.52      0.64      0.57     13613
+       other       0.45      0.67      0.54     14985
+       short       0.00      0.00      0.00      5073
+
+    accuracy                           0.52     54214
+   macro avg       0.46      0.41      0.36     54214
+weighted avg       0.50      0.52      0.46     54214
+
+
+SVM Sigmoid Classification Report:
+              precision    recall  f1-score   support
+
+      comedy       1.00      0.00      0.00      7447
+ documentary       0.62      0.79      0.70     13096
+       drama       0.51      0.70      0.59     13613
+       other       0.50      0.62      0.56     14985
+       short       0.00      0.00      0.00      5073
+
+    accuracy                           0.54     54214
+   macro avg       0.53      0.42      0.37     54214
+weighted avg       0.55      0.54      0.47     54214
+
+
+SVM RBF Classification Report:
+              precision    recall  f1-score   support
+
+      comedy       0.74      0.04      0.07      7447
+ documentary       0.63      0.81      0.71     13096
+       drama       0.51      0.72      0.60     13613
+       other       0.53      0.63      0.57     14985
+       short       0.00      0.00      0.00      5073
+
+    accuracy                           0.56     54214
+   macro avg       0.48      0.44      0.39     54214
+weighted avg       0.53      0.56      0.49     54214
+
+
+Logistic Regression Classification Report:
+              precision    recall  f1-score   support
+
+      comedy       0.60      0.50      0.54      7447
+ documentary       0.71      0.79      0.75     13096
+       drama       0.60      0.68      0.64     13613
+       other       0.62      0.64      0.63     14985
+       short       0.55      0.28      0.37      5073
+
+    accuracy                           0.63     54214
+   macro avg       0.62      0.58      0.59     54214
+weighted avg       0.63      0.63      0.62     54214
+
+
+Multinomial NB Classification Report:
+              precision    recall  f1-score   support
+
+      comedy       0.69      0.00      0.00      7447
+ documentary       0.63      0.72      0.67     13096
+       drama       0.52      0.64      0.57     13613
+       other       0.45      0.67      0.54     14985
+       short       0.00      0.00      0.00      5073
+
+    accuracy                           0.52     54214
+   macro avg       0.46      0.41      0.36     54214
+weighted avg       0.50      0.52      0.46     54214
+
+
