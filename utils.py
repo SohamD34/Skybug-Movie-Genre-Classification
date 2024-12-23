@@ -43,6 +43,17 @@ class Net(nn.Module):
         out = self.fc2(out)
         out = self.softmax(out)
         return out
+    
+
+def clean_text(text):
+    text = re.sub('Mail <svaradi@sprynet.com> for translation. ','',text)
+    text = re.sub(r'@\S+', '', text)
+    text = re.sub(r'http\S+', '', text)
+    text = re.sub(f'[{string.punctuation}]','',text)
+    text = re.sub(f'[{string.digits}]','',text)
+    text = re.sub(r'\s+[a-zA-Z]\s+', ' ', text)
+    
+    return text
 
 
 def train_one_epoch(model, train_loader, loss_function, optimiser, device):
